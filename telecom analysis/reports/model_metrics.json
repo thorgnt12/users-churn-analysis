@@ -1,0 +1,37 @@
+{
+  "dataset": {
+    "records": 7043,
+    "test_records": 1409,
+    "test_churn_rate": 0.2654
+  },
+  "selection_metric": "roc_auc",
+  "selected_model": "logistic_regression",
+  "models": {
+    "logistic_regression": {
+      "roc_auc": 0.8413,
+      "average_precision": 0.6326,
+      "accuracy": 0.7381,
+      "precision_at_0_50": 0.5043,
+      "recall_at_0_50": 0.7834,
+      "top_risk_fraction": 0.1,
+      "customers_targeted": 141,
+      "churners_captured": 107,
+      "total_test_churners": 374,
+      "churner_capture_rate": 0.2861,
+      "top_segment_precision": 0.7589
+    },
+    "random_forest": {
+      "roc_auc": 0.8376,
+      "average_precision": 0.6436,
+      "accuracy": 0.7779,
+      "precision_at_0_50": 0.567,
+      "recall_at_0_50": 0.6898,
+      "top_risk_fraction": 0.1,
+      "customers_targeted": 141,
+      "churners_captured": 109,
+      "total_test_churners": 374,
+      "churner_capture_rate": 0.2914,
+      "top_segment_precision": 0.773
+    }
+  }
+}
